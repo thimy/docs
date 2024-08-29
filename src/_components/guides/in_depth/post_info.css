@@ -1,0 +1,19 @@
+indepth-post-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .author {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+
+    svg {
+      margin-inline-start: var(--spacing-1);
+    }
+  }
+}
